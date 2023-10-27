@@ -1,5 +1,5 @@
 import streamlit as st
-from dotenv import load_dotenv
+#from dotenv import load_dotenv
 from data_preparation import data_loading
 from text_functions import classify
 from HtmlTemplate import css, bot_template, user_template
@@ -60,7 +60,7 @@ def run_project1():
             
     
 def run_project2():
-    load_dotenv()
+    #load_dotenv()
     st.write(css, unsafe_allow_html=True)
  
         # Session state needs to be initialized

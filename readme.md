@@ -1,0 +1,1 @@
+Add your Openai API key to the .env file.
